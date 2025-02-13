@@ -133,3 +133,98 @@
 .slider-section-container h2 span{
     color: #ff3d51;
 }
+.slider-container-buttons-plus {
+    display: flex;
+    position: relative;
+    z-index: 0;
+}
+
+.right-button , .left-button {
+    position: absolute;
+    background-color: rgb(172, 172, 172,0.8);
+    z-index: 1;
+    padding: 12px;
+    top: 50%;
+    
+}
+.right-button{
+    right: 2rem;
+    border-radius: 50%;
+    border: none;
+}
+.left-button {
+    left: 2rem;
+    border-radius: 50%;
+    border: none;
+    padding-left: 16px;
+    padding-right: 8px;
+}
+
+.slider-container {
+    display: flex;
+    overflow-x: scroll;
+    gap: 2rem;
+    padding: 2rem 6rem;
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+}
+
+.slider-element {
+    width: 400px;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    flex: 0 0 auto;
+    border-radius: 16px;
+    font-family: sans-serif;
+    display: flex;
+    gap: 8px;
+    flex-direction: column;
+    padding: 2.5rem 2rem;
+    transition: transform 0.25s ease-in;
+}
+
+.slider-element:hover{
+    transform: scale(1.015);
+}
+
+.slider-element h4 {
+    font-size: 2rem;
+}
+
+
+
+.slider-element:nth-child(1) {
+    background-image: url('iphonepro.jfif');
+    color: white;
+}
+.slider-element:nth-child(2) {
+    background-image: url('applewatch.jfif');
+}
+.slider-element:nth-child(3) {
+    background-image: url('macbookpro.jfif');
+    color: white;
+}
+.slider-element:nth-child(4) {
+    background-image: url('applewatch2.jfif');
+    color: white;
+}
+.slider-element:nth-child(5) {
+    background-image: url('offer.jfif');
+}
+.slider-element:nth-child(6) {
+    background-image: url('ipadmini.jfif');
+}
+.slider-element:nth-child(7) {
+    background-image: url('iphone16.jfif');
+    color: white;
+}
+.slider-element:nth-child(8) {
+    background-image: url('ipadair.jfif');
+}
+.slider-element:nth-child(9) {
+    background-image: url('imac.jfif');
+}
+.slider-element:nth-child(10) {
+    background-image: url('applewatchse.jfif');
+}
