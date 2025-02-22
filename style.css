@@ -180,7 +180,7 @@
     display: flex;
     gap: 8px;
     flex-direction: column;
-    padding: 2.5rem 2rem;
+    padding: 2rem 1.5rem;
     transition: transform 0.25s ease-in;
 }
 
@@ -227,4 +227,99 @@
 }
 .slider-element:nth-child(10) {
     background-image: url('applewatchse.jfif');
+}
+
+
+
+.slider-element-2:nth-child(1) {
+    background-image: url('help1.jfif');
+    
+}
+.slider-element-2:nth-child(2) {
+    background-image: url('help2.jfif');
+}
+.slider-element-2:nth-child(3) {
+    background-image: url('help3.jfif'); 
+}
+.slider-element-2:nth-child(4) {
+    background-image: url('help4.jfif');
+    
+}
+.slider-element-2:nth-child(5) {
+    background-image: url('help5.jfif');
+}
+
+.slider-element-2 {
+    width: 460px;
+    height: 575px;
+    background-position: center;
+    background-size: cover;
+    flex: 0 0 auto;
+    border-radius: 16px;
+    font-family: sans-serif;
+    display: flex;
+    gap: 8px;
+    flex-direction: column;
+    padding: 2.5rem 2rem;
+    transition: transform 0.25s ease-in;
+}
+
+.slider-element-2:hover{
+    transform: scale(1.015);
+}
+
+.slider-element-2 h4 {
+    font-size: 1.8rem;
+    color: black;
+}
+.slider-element-2 small {
+    color: gray;
+    font-weight: bold;
+}
+
+.slider-element-2:nth-child(3) h4{
+    color: white;
+}
+
+.slider-element-3 {
+    width: 400px;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    flex: 0 0 auto;
+    border-radius: 16px;
+    font-family: sans-serif;
+    display: flex;
+    gap: 8px;
+    flex-direction: column;
+    padding: 2.5rem 2rem;
+    transition: transform 0.25s ease-in;
+}
+
+.slider-element-3:hover{
+    transform: scale(1.015);
+}
+
+.slider-element-3:nth-child(1) {
+    background-image: url('apple-store-1.jfif');
+    
+}
+.slider-element-3:nth-child(2) {
+    background-image: url('apple-store-2.jfif');
+}
+.slider-element-3:nth-child(3) {
+    background-image: url('apple-store-3.jfif'); 
+}
+.slider-element-3:nth-child(4) {
+    background-image: url('apple-store-4.jfif');
+    
+}
+
+.slider-element-3 h4 {
+    font-size: 1.6rem;
+    color: black;
+}
+.slider-element-3 small {
+    color: dodgerblue;
+    font-weight: bold;
 }
